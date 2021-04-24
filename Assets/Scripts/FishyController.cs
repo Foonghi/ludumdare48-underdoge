@@ -8,6 +8,7 @@ public class FishyController : MonoBehaviour
     [SerializeField] Transform[] Waypoints;
     
     bool triggerWaypoint = false;
+    int wPointsCounter = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class FishyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(wPointsCounter);
         if(triggerWaypoint)
         {
             MoveToPosition();
@@ -42,15 +44,16 @@ public class FishyController : MonoBehaviour
 
     void MoveToPosition()
     {
-        if (transform.position == Waypoints[0].position)
+        if (transform.position == Waypoints[wPointsCounter].position)
         {
             triggerWaypoint = false;
+            wPointsCounter++;
             return;
         }
         else 
         {
-            var movementThisFrame = 2f * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, Waypoints[0].position, movementThisFrame);
+            var movementThisFrame = 7f * Time.deltaTime;
+            transform.position = Vector2.MoveTowards(transform.position, Waypoints[wPointsCounter].position, movementThisFrame);
         }
     }
 
