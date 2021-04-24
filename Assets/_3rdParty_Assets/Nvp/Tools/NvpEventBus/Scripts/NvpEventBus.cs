@@ -37,6 +37,19 @@ namespace Nvp.Tools.Events.EventBus
             }
         }
 
+        public static void DispatchEvent(GameEvent gameEvent, object eventArgs)
+        {
+            int hash = (int) gameEvent;
+
+            if (_eventListenerCallbackMap.ContainsKey(hash))
+            {
+                foreach (var callback in _eventListenerCallbackMap[hash])
+                {
+                    callback(eventArgs);
+                }
+            }
+        }
+
         public static void DispatchEvent(GE ge, object eventArgs)
         {
             var eventId = (int)ge;
@@ -77,7 +90,7 @@ namespace Nvp.Tools.Events.EventBus
 
         }
 
-        public static void AddListener(GE ge, Action<object> callback)
+        public static void AddListener(GameEvent ge, Action<object> callback)
         {
             var eventId = (int)ge;
             if (_eventListenerCallbackMap.ContainsKey(eventId))
@@ -117,7 +130,7 @@ namespace Nvp.Tools.Events.EventBus
             }
         }
 
-        public static void RemoveListener(GE ge, Action<object> callback)
+        public static void RemoveListener(GameEvent ge, Action<object> callback)
         {
             var eventId = (int)ge;
 
