@@ -2,12 +2,9 @@ namespace Nvp.Tools.Events.EventBus
 {
     public enum GameEvent
     {
-        OnShowIntro,
-        OnLeaveIntro,
         OnShowCredits,
         OnLeaveCredits,
-        OnShowMainMenu,
-        OnShowGame,
+        OnStartGame,
         OnLeaveGame,
         OnPlayerHitObstacle,
         OnPlayerMovingAgain,
