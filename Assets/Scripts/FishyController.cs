@@ -36,6 +36,10 @@ public class FishyController : MonoBehaviour
         {
             return;
         }
+        else if(collision.gameObject.CompareTag("Door"))
+        {
+            DestroyObject(gameObject, 0.5f);
+        }
         else
         {
             triggerWaypoint = true;
