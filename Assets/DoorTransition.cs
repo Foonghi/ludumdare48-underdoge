@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class DoorTransition : MonoBehaviour
 {
+    AudioSource myAudioSource;
+    [SerializeField] AudioClip doorSound;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        myAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -25,14 +28,18 @@ public class DoorTransition : MonoBehaviour
         }
         else
         {
-            FromIntrotoLevel1();
+            myAudioSource.PlayOneShot(doorSound, 1f);
+            StartCoroutine(FromIntrotoLevel1());
+            Time.timeScale = 0.2f;
         }
     }
 
-    private void FromIntrotoLevel1()
+    IEnumerator FromIntrotoLevel1()
     {
+        yield return new WaitForSeconds(0.5f);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
+        Time.timeScale = 1f;
     }
 
 }

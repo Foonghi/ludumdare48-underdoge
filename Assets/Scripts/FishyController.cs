@@ -7,19 +7,19 @@ public class FishyController : MonoBehaviour
 
     [SerializeField] Transform[] Waypoints;
     
+    
     bool triggerWaypoint = false;
     int wPointsCounter = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-       
+        Debug.Log(Waypoints.Length);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(wPointsCounter);
         if(triggerWaypoint)
         {
             MoveToPosition();
@@ -36,10 +36,10 @@ public class FishyController : MonoBehaviour
         {
             return;
         }
-        else if(collision.gameObject.CompareTag("Door"))
+        /*else if(collision.gameObject.CompareTag("Door"))
         {
-            DestroyObject(gameObject, 0.5f);
-        }
+            Object.Destroy(gameObject, 0.2f);
+        }*/
         else
         {
             triggerWaypoint = true;
@@ -58,6 +58,11 @@ public class FishyController : MonoBehaviour
         {
             var movementThisFrame = 7f * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, Waypoints[wPointsCounter].position, movementThisFrame);
+            if(transform.position == Waypoints[Waypoints.Length - 1].position)
+            {
+                Debug.Log("Destroy Fishy!");
+                Destroy(gameObject, 0.2f);
+            }
         }
     }
 
