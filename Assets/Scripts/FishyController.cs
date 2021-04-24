@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class FishyController : MonoBehaviour
 {
-    [SerializeField] Transform wPoint1;
-    bool triggerIsTrue = false;
+
+    [SerializeField] Transform[] Waypoints;
+    
+    bool triggerWaypoint = false;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +18,7 @@ public class FishyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(triggerIsTrue)
+        if(triggerWaypoint)
         {
             MoveToPosition();
         }
@@ -34,22 +36,21 @@ public class FishyController : MonoBehaviour
         }
         else
         {
-            Debug.Log("Player entered Trigger");
-            triggerIsTrue = true;
+            triggerWaypoint = true;
         }
     }
 
     void MoveToPosition()
     {
-        if (transform.position == wPoint1.position)
+        if (transform.position == Waypoints[0].position)
         {
-            triggerIsTrue = false;
+            triggerWaypoint = false;
             return;
         }
-        else
+        else 
         {
             var movementThisFrame = 2f * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, wPoint1.position, movementThisFrame);
+            transform.position = Vector2.MoveTowards(transform.position, Waypoints[0].position, movementThisFrame);
         }
     }
 
