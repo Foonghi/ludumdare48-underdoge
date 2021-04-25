@@ -8,7 +8,7 @@ public class FishyLightController : MonoBehaviour
     Light2D myLight;
 
     // animate the game object from -1 to +1 and back
-    public float minimum = 0.5f;
+    public float minimum = 0.1f;
     public float maximum = 1.5f;
 
     // starting value for the Lerp
@@ -35,7 +35,7 @@ public class FishyLightController : MonoBehaviour
         // now check if the interpolator has reached 1.0
         // and swap maximum and minimum so game object moves
         // in the opposite direction.
-        if (t > 1.0f)
+        if (t > 1.5f)
         {
             float temp = maximum;
             maximum = minimum;
