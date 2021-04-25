@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.Rotate(0, 0, -rotateSpeed);
             //transform.Translate(Vector2.right * playerSpeed * Time.deltaTime);
+            
         }
     }
 
