@@ -55,6 +55,9 @@ ExportedObj/
 *.unity.meta
 # generated audio meta files
 *.wav.meta
+*.mp3.meta
+*.ogg.meta
+*.bmp.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
