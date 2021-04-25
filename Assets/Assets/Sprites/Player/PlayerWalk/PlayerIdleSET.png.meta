@@ -1,0 +1,1608 @@
+fileFormatVersion: 2
+guid: d701ead5f99bbb148aaaf9c4146a173f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8440231462720439038
+    second: PlayerIdleSET_0
+  - first:
+      213: 1540943820628456150
+    second: PlayerIdleSET_1
+  - first:
+      213: 3805557097394360210
+    second: PlayerIdleSET_2
+  - first:
+      213: -687787177326054422
+    second: PlayerIdleSET_3
+  - first:
+      213: -585124404435121581
+    second: PlayerIdleSET_4
+  - first:
+      213: -6309697486877646622
+    second: PlayerIdleSET_5
+  - first:
+      213: 6710998111082688715
+    second: PlayerIdleSET_6
+  - first:
+      213: 1208053982289260462
+    second: PlayerIdleSET_7
+  - first:
+      213: 5165009493508294011
+    second: PlayerIdleSET_8
+  - first:
+      213: -7330127117468158262
+    second: PlayerIdleSET_9
+  - first:
+      213: -8051119523605883362
+    second: PlayerIdleSET_10
+  - first:
+      213: -1165276393856593675
+    second: PlayerIdleSET_11
+  - first:
+      213: 6050753689310225809
+    second: PlayerIdleSET_12
+  - first:
+      213: 3632878042267176018
+    second: PlayerIdleSET_13
+  - first:
+      213: -9222331812711106054
+    second: PlayerIdleSET_14
+  - first:
+      213: -4071917871202223776
+    second: PlayerIdleSET_15
+  - first:
+      213: 3117059890015146270
+    second: PlayerIdleSET_16
+  - first:
+      213: 8094217877761020298
+    second: PlayerIdleSET_17
+  - first:
+      213: 8323508638140763138
+    second: PlayerIdleSET_18
+  - first:
+      213: 4553225005786956156
+    second: PlayerIdleSET_19
+  - first:
+      213: -8243187428646178164
+    second: PlayerIdleSET_20
+  - first:
+      213: 7454682991402134266
+    second: PlayerIdleSET_21
+  - first:
+      213: -8716900069550081911
+    second: PlayerIdleSET_22
+  - first:
+      213: 2610813828587111001
+    second: PlayerIdleSET_23
+  - first:
+      213: -5465660960341515810
+    second: PlayerIdleSET_24
+  - first:
+      213: -2218448916079445971
+    second: PlayerIdleSET_25
+  - first:
+      213: 4420744708862350748
+    second: PlayerIdleSET_26
+  - first:
+      213: 2500084011877002909
+    second: PlayerIdleSET_27
+  - first:
+      213: 3874735945490662844
+    second: PlayerIdleSET_28
+  - first:
+      213: -7641199241218740888
+    second: PlayerIdleSET_29
+  - first:
+      213: -4892077059114452158
+    second: PlayerIdleSET_30
+  - first:
+      213: 4159781831182167887
+    second: PlayerIdleSET_31
+  - first:
+      213: 2288893234170764830
+    second: PlayerIdleSET_32
+  - first:
+      213: -1090312498385601125
+    second: PlayerIdleSET_33
+  - first:
+      213: 8768069819174412740
+    second: PlayerIdleSET_34
+  - first:
+      213: -108067687333877974
+    second: PlayerIdleSET_35
+  - first:
+      213: -2214369448075748288
+    second: PlayerIdleSET_36
+  - first:
+      213: -4719801473643770702
+    second: PlayerIdleSET_37
+  - first:
+      213: 7436839810862656211
+    second: PlayerIdleSET_38
+  - first:
+      213: -290472777319960631
+    second: PlayerIdleSET_39
+  - first:
+      213: -7386085836578564381
+    second: PlayerIdleSET_40
+  - first:
+      213: 6752614940323412414
+    second: PlayerIdleSET_41
+  - first:
+      213: 1551887216101531342
+    second: PlayerIdleSET_42
+  - first:
+      213: -5567395462979480818
+    second: PlayerIdleSET_43
+  - first:
+      213: 7185658804046646998
+    second: PlayerIdleSET_44
+  - first:
+      213: 7663852033531275540
+    second: PlayerIdleSET_45
+  - first:
+      213: -64767830470209087
+    second: PlayerIdleSET_46
+  - first:
+      213: -758454071327625185
+    second: PlayerIdleSET_47
+  - first:
+      213: -1560734481087542399
+    second: PlayerIdleSET_48
+  - first:
+      213: -5535963397351994962
+    second: PlayerIdleSET_49
+  - first:
+      213: 4708228496693419341
+    second: PlayerIdleSET_50
+  - first:
+      213: -3254972209155793932
+    second: PlayerIdleSET_51
+  - first:
+      213: 3381267355141019601
+    second: PlayerIdleSET_52
+  - first:
+      213: 4993973384932644943
+    second: PlayerIdleSET_53
+  - first:
+      213: 54681182295843352
+    second: PlayerIdleSET_54
+  - first:
+      213: -7205610600006209330
+    second: PlayerIdleSET_55
+  - first:
+      213: -8998177737051791571
+    second: PlayerIdleSET_56
+  - first:
+      213: 2698825262569636745
+    second: PlayerIdleSET_57
+  - first:
+      213: 3195399077943831109
+    second: PlayerIdleSET_58
+  - first:
+      213: -4031880026658001141
+    second: PlayerIdleSET_59
+  - first:
+      213: -146497550713714094
+    second: PlayerIdleSET_60
+  - first:
+      213: 4559900909330466034
+    second: PlayerIdleSET_61
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayerIdleSET_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 230
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2078d0cc9b12570800000000000000
+      internalID: 8440231462720439038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 230
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d274679d38826510800000000000000
+      internalID: 1540943820628456150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 230
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f48a2740e00d430800000000000000
+      internalID: 3805557097394360210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 230
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3796ec43d7476f0800000000000000
+      internalID: -687787177326054422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 230
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a8b3c447831e7f0800000000000000
+      internalID: -585124404435121581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 230
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0ab7ed0937f68a0800000000000000
+      internalID: -6309697486877646622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 230
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0b663c931422d50800000000000000
+      internalID: 6710998111082688715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_7
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 230
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafe8d342bed3c010800000000000000
+      internalID: 1208053982289260462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 198
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75051ad4cccda740800000000000000
+      internalID: 5165009493508294011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 198
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac63adc2938264a90800000000000000
+      internalID: -7330127117468158262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 198
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16524f237da44090800000000000000
+      internalID: -8051119523605883362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 198
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0970f2b4b14dfe0800000000000000
+      internalID: -1165276393856593675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 198
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19568b21c6898f350800000000000000
+      internalID: 6050753689310225809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 198
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cc6a5e4539a6230800000000000000
+      internalID: 3632878042267176018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 198
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9f19e0412b30080800000000000000
+      internalID: -9222331812711106054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_15
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 198
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0693d642544ad77c0800000000000000
+      internalID: -4071917871202223776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 166
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1198ff7475024b20800000000000000
+      internalID: 3117059890015146270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 166
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81df8a5640745070800000000000000
+      internalID: 8094217877761020298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 166
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c864da10b038370800000000000000
+      internalID: 8323508638140763138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 166
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c718b5cc40e403f30800000000000000
+      internalID: 4553225005786956156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 166
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82349a35b05a9d80800000000000000
+      internalID: -8243187428646178164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_21
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 166
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaabaf1faa547760800000000000000
+      internalID: 7454682991402134266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 166
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988b3e32299570780800000000000000
+      internalID: -8716900069550081911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_23
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 166
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952cc9b28597b3420800000000000000
+      internalID: 2610813828587111001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 134
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1af1c90521624b0800000000000000
+      internalID: -5465660960341515810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_25
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 134
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28fbb4f67c7631e0800000000000000
+      internalID: -2218448916079445971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 134
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c959d6ef3e3a95d30800000000000000
+      internalID: 4420744708862350748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_27
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 134
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eef8ca92512b220800000000000000
+      internalID: 2500084011877002909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_28
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 134
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5886d20d3d5c530800000000000000
+      internalID: 3874735945490662844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 134
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d2c2166c105f590800000000000000
+      internalID: -7641199241218740888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 134
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b35a585d9db1cb0800000000000000
+      internalID: -4892077059114452158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 134
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4facb639838ab930800000000000000
+      internalID: 4159781831182167887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_32
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 102
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e1b87f448c3cf10800000000000000
+      internalID: 2288893234170764830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 102
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dbe873f8e6ed0f0800000000000000
+      internalID: -1090312498385601125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_34
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 102
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1e6b99b017ea970800000000000000
+      internalID: 8768069819174412740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_35
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 102
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2724ccc201108ef0800000000000000
+      internalID: -108067687333877974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 102
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c97fd18baf441e0800000000000000
+      internalID: -2214369448075748288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_37
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 102
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc0919f095ef7eb0800000000000000
+      internalID: -4719801473643770702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_38
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 102
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daa3f9e766f43760800000000000000
+      internalID: 7436839810862656211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_39
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 102
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf2cea4c8808fbf0800000000000000
+      internalID: -290472777319960631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 70
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6d036901a5f7990800000000000000
+      internalID: -7386085836578564381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_41
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 70
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f8f6e28b16bd50800000000000000
+      internalID: 6752614940323412414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_42
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 70
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece93376339698510800000000000000
+      internalID: 1551887216101531342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_43
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 70
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e039cf0e253acb2b0800000000000000
+      internalID: -5567395462979480818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_44
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 70
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6decb5c6c9698b360800000000000000
+      internalID: 7185658804046646998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_45
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 70
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41969c5d1d87b5a60800000000000000
+      internalID: 7663852033531275540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_46
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 70
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c153f75006e91ff0800000000000000
+      internalID: -64767830470209087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_47
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 70
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1071146a0e6975f0800000000000000
+      internalID: -758454071327625185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_48
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 38
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bc2123248275ae0800000000000000
+      internalID: -1560734481087542399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_49
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 38
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea90543fe9e4c23b0800000000000000
+      internalID: -5535963397351994962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_50
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 38
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d58ca5fdcf65140800000000000000
+      internalID: 4708228496693419341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_51
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 38
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb1087750404d2d0800000000000000
+      internalID: -3254972209155793932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_52
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 38
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d71ec9aebcacee20800000000000000
+      internalID: 3381267355141019601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_53
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 38
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f485aaa95582e4540800000000000000
+      internalID: 4993973384932644943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_54
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 38
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81264aede3442c000800000000000000
+      internalID: 54681182295843352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_55
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 38
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec037d41657800c90800000000000000
+      internalID: -7205610600006209330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_56
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 6
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f1335c50d002380800000000000000
+      internalID: -8998177737051791571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_57
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 6
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983405ef647247520800000000000000
+      internalID: 2698825262569636745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_58
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 6
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ae37c0886585c20800000000000000
+      internalID: 3195399077943831109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_59
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 6
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fae024a72eb08c0800000000000000
+      internalID: -4031880026658001141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_60
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 6
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a8e39f04987fdf0800000000000000
+      internalID: -146497550713714094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerIdleSET_61
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 6
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f48f97b7b5084f30800000000000000
+      internalID: 4559900909330466034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
