@@ -27,13 +27,17 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.localScale = new Vector2(-1, 1);
+            //Flip könnte man noch machen
+            //transform.localScale = new Vector2( -1, 1);
+            //transform.localRotation = Quaternion.identity;
             transform.Rotate(0, 0, rotateSpeed);
             //transform.Translate(Vector2.left * playerSpeed * Time.deltaTime);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.localScale = new Vector2( 1, 1);
+            //Flip könnte man noch machen
+            //transform.localScale = new Vector2( 1, 1);
+            //transform.localRotation = Quaternion.identity;
             transform.Rotate(0, 0, -rotateSpeed);
             //transform.Translate(Vector2.right * playerSpeed * Time.deltaTime);
         }
