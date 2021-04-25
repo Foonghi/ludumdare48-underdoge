@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: d8c6adcde8d05b843bf9b2b2b8fc7589
+guid: 54c326dd93ca65a4e855b6bc3b22d112
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7826869163841420073
-    second: yjdienih_0
+      213: -2183539339245581335
+    second: PlayerCrawlSET_0
   - first:
-      213: 6459993046193850581
-    second: yjdienih_1
+      213: -3061847653366818309
+    second: PlayerCrawlSET_1
   - first:
-      213: 5165634485491136839
-    second: yjdienih_2
+      213: 7494568209502036434
+    second: PlayerCrawlSET_2
   - first:
-      213: -4573666278684229785
-    second: yjdienih_3
+      213: 7562305134980238911
+    second: PlayerCrawlSET_3
   - first:
-      213: -976182082079091985
-    second: yjdienih_4
+      213: 2237163900373128804
+    second: PlayerCrawlSET_4
   - first:
-      213: -8892169401672860415
-    second: yjdienih_5
+      213: -402108267127026728
+    second: PlayerCrawlSET_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: yjdienih_0
+      name: PlayerCrawlSET_0
       rect:
         serializedVersion: 2
-        x: 105
-        y: 1155
-        width: 255
-        height: 150
+        x: 10
+        y: 76
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,20 +135,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d406c9c6ff516390800000000000000
-      internalID: -7826869163841420073
+      spriteID: 9eb0d233a8282b1e0800000000000000
+      internalID: -2183539339245581335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yjdienih_1
+      name: PlayerCrawlSET_1
       rect:
         serializedVersion: 2
-        x: 585
-        y: 1155
-        width: 255
-        height: 150
+        x: 42
+        y: 76
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d8c0e1f27186a950800000000000000
-      internalID: 6459993046193850581
+      spriteID: bf915b818c12285d0800000000000000
+      internalID: -3061847653366818309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yjdienih_2
+      name: PlayerCrawlSET_2
       rect:
         serializedVersion: 2
-        x: 90
-        y: 675
-        width: 270
-        height: 150
+        x: 10
+        y: 44
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 749f433223500b740800000000000000
-      internalID: 5165634485491136839
+      spriteID: 2d1ed40241e020860800000000000000
+      internalID: 7494568209502036434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yjdienih_3
+      name: PlayerCrawlSET_3
       rect:
         serializedVersion: 2
-        x: 570
-        y: 675
-        width: 270
-        height: 150
+        x: 42
+        y: 44
+        width: 13
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76ff7d970c21780c0800000000000000
-      internalID: -4573666278684229785
+      spriteID: f3e0c951474b2f860800000000000000
+      internalID: 7562305134980238911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yjdienih_4
+      name: PlayerCrawlSET_4
       rect:
         serializedVersion: 2
-        x: 105
-        y: 195
-        width: 270
-        height: 150
+        x: 11
+        y: 12
+        width: 12
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe213918197e372f0800000000000000
-      internalID: -976182082079091985
+      spriteID: 4665112e6b00c0f10800000000000000
+      internalID: 2237163900373128804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: yjdienih_5
+      name: PlayerCrawlSET_5
       rect:
         serializedVersion: 2
-        x: 585
-        y: 195
-        width: 270
-        height: 150
+        x: 43
+        y: 12
+        width: 12
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10df0baba0ba89480800000000000000
-      internalID: -8892169401672860415
+      spriteID: 8db45a859ac6b6af0800000000000000
+      internalID: -402108267127026728
       vertices: []
       indices: 
       edges: []
