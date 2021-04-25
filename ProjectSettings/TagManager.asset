@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Door
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Fishy
   - Door
   - Border
-  - 
+  - Destroyable
   - 
   - 
   - 
