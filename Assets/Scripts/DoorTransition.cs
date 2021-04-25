@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DoorTransition : MonoBehaviour
 {
-    AudioSource myAudioSource;
+    AudioSource myAudioSource; 
     [SerializeField] AudioClip doorSound;
     Animator myAnimator;
     int iCount;
@@ -31,8 +31,13 @@ public class DoorTransition : MonoBehaviour
         }
         else
         {
-            StartCoroutine(FromIntrotoLevel1());
-            Time.timeScale = 0.2f;
+            if(FindObjectOfType<FishyController>().fishEscapeDoor)
+            {
+                StartCoroutine(FromIntrotoLevel1());
+                Time.timeScale = 0.2f;
+            }
+            else { return; }
+            
         }
     }
 
@@ -48,7 +53,7 @@ public class DoorTransition : MonoBehaviour
     {
         if (iCount >= 1)
         { return; }
-        else if (FindObjectOfType<FishyController>().fishEscapeDoor)
+        else if (FindObjectOfType<FishyController>().fishEscapeDoor) // is fishy entering the door?
         {
                 myAudioSource.PlayOneShot(doorSound, 1f);
                 myAnimator.SetBool("TransitionOpenDoor", true);

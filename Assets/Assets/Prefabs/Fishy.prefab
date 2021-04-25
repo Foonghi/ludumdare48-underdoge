@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5657097909498402064}
   - component: {fileID: 5657097909498402093}
   - component: {fileID: 5657097909498402092}
+  - component: {fileID: 1029199537}
   m_Layer: 6
   m_Name: Fishy
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5657097909498402065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.5711, y: -6.8289, z: 0}
-  m_LocalScale: {x: 0.19886355, y: 0.19886355, z: 0.19886355}
+  m_LocalScale: {x: 13.483, y: 13.483, z: 13.483}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,10 +74,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -808636643
   m_SortingLayer: 2
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: cd832a31540de144eb00c68743ae44ae, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 3838815287896716533, guid: e0652c69cb623a549a41e2bd9a4c97ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -98,18 +99,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -17.70021, y: 3.0627344}
+  m_Offset: {x: -0.58366823, y: 0.059663694}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.36, y: 7.36}
+    oldSize: {x: 0.31, y: 0.19}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 196.26385, y: 7.1254687}
+  m_Size: {x: 5.827057, y: 0.3093273}
   m_EdgeRadius: 0
 --- !u!114 &5657097909498402093
 MonoBehaviour:
@@ -129,6 +130,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  fishEscapeDoor: 0
+  fishySpeed: 9
 --- !u!50 &5657097909498402092
 Rigidbody2D:
   serializedVersion: 4
@@ -150,3 +153,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &1029199537
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5657097909498402065}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5ba0028050b0ea94ca9e01753e42c7b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

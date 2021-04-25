@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FishyController : MonoBehaviour
 {
-
+    Animator myAnimator;
     [SerializeField] Transform[] Waypoints; // array to store Waypoints in inspector
     public bool fishEscapeDoor = false;
     [SerializeField] float fishySpeed = 1f; // travelspeed of fishy
@@ -15,7 +15,7 @@ public class FishyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        myAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -42,6 +42,7 @@ public class FishyController : MonoBehaviour
             if(wPointsCounter < Waypoints.Length)
             {
                 triggerWaypoint = true; // enables MoveToPosition() in Update
+                myAnimator.SetBool("IsMoving", true);
             }
         }
     }
@@ -52,7 +53,24 @@ public class FishyController : MonoBehaviour
         {
             triggerWaypoint = false; // deactivates MoveToPosition() in Update
             wPointsCounter++; // next waypoint to travel to (0 + 1 = Waypoints[1])
-            return;
+            myAnimator.SetBool("IsMoving", false);
+            SpriteRenderer myRenderer = GetComponent<SpriteRenderer>();
+            if(myRenderer.flipX)
+            {
+                myRenderer.flipX = false;
+            }
+            else
+            {
+                if(wPointsCounter >= 3)
+                {
+                    return;
+                }
+                else
+                {
+                    myRenderer.flipX = true;
+                }
+                
+            }
         }
         else 
         {
@@ -61,11 +79,15 @@ public class FishyController : MonoBehaviour
             if(transform.position == Waypoints[Waypoints.Length - 1].position) // if fishy reaches final waypoint (last in array = 5 - 1 = 4, weil wegen von 0 angefangen zu zählen und so)
             {
                 fishEscapeDoor = true; // Tells DoorTransition.cs fishy has reached its final waypoint at the door 
-                SpriteRenderer myRenderer = GetComponent<SpriteRenderer>(); 
-                myRenderer.enabled = false; // Sets fishy invisible
+                StartCoroutine(DelayFishyVanishing());
             }
         }
     }
 
-    
+    IEnumerator DelayFishyVanishing() // Wait 1 second, then fishy vanish
+    { 
+        yield return new WaitForSeconds(1f);
+        SpriteRenderer myRenderer = GetComponent<SpriteRenderer>();
+        myRenderer.enabled = false; // Sets fishy invisible
+    }
 }
