@@ -51,6 +51,10 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+# changes on unity meta files should not happen and only reside at the developer's side
+*.unity.meta
+# generated audio meta files
+*.wav.meta
 
 # Unity3D generated file on crash reports
 sysinfo.txt
