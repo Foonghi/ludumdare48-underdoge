@@ -10,7 +10,9 @@ namespace Nvp.Tools.Events.EventBus
         OnPlayerMovingAgain,
         OnPlayerDie,
         Something,
-        DoDamage
+        DoDamage,
+        OnTextbox,
+        OnTextFinished
     }
 
 }
