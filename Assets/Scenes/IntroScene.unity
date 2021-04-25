@@ -321,6 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 665295663}
   - component: {fileID: 665295664}
+  - component: {fileID: 665295665}
   m_Layer: 0
   m_Name: Cameras
   m_TagString: Untagged
@@ -354,7 +355,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bdccbe8a522995442bf21172998d6373, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5af6dc23ffce21345b65b1bf23a1c7d8, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
@@ -440,6 +441,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &665295665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665295662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724ed60ad4f6f3948ac375af732cf628, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1039841157}
 --- !u!1 &852970654
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +484,11 @@ Transform:
   m_Father: {fileID: 1758480901}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1039841157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1761640610464163421, guid: 6e653f68ff2075445adc3519d6cee070, type: 3}
+  m_PrefabInstance: {fileID: 1761640611595808740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1150257596 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1761640610464163416, guid: 6e653f68ff2075445adc3519d6cee070, type: 3}
