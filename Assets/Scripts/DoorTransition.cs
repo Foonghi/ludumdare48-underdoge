@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Nvp.Tools.Events.EventBus;
 
 public class DoorTransition : MonoBehaviour
 {
@@ -9,6 +10,16 @@ public class DoorTransition : MonoBehaviour
     [SerializeField] AudioClip doorSound;
     Animator myAnimator;
     int iCount;
+
+    private void OnEnable()
+    {
+        NvpEventBus.AddListener(GameEvent.OnTextFinished, TextFinished);
+    }
+
+    private void OnDisable()
+    {
+        NvpEventBus.RemoveListener(GameEvent.OnTextFinished, TextFinished);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -31,13 +42,16 @@ public class DoorTransition : MonoBehaviour
         }
         else
         {
-            if(FindObjectOfType<FishyController>().fishEscapeDoor)
-            {
-                StartCoroutine(FromIntrotoLevel1());
-                Time.timeScale = 0.2f;
-            }
-            else { return; }
-            
+            NvpEventBus.DispatchEvent(GameEvent.OnTextbox, null);            
+        }
+    }
+
+    void TextFinished(object obj)
+    {
+        if (FindObjectOfType<FishyController>().fishEscapeDoor)
+        {
+            StartCoroutine(FromIntrotoLevel1());
+            Time.timeScale = 0.2f;
         }
     }
 
