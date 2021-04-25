@@ -7,17 +7,20 @@ public class DoorTransition : MonoBehaviour
 {
     AudioSource myAudioSource;
     [SerializeField] AudioClip doorSound;
+    Animator myAnimator;
+    int iCount;
 
     // Start is called before the first frame update
     void Start()
     {
         myAudioSource = GetComponent<AudioSource>();
+        myAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        FishEntersDoor();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -28,7 +31,6 @@ public class DoorTransition : MonoBehaviour
         }
         else
         {
-            myAudioSource.PlayOneShot(doorSound, 1f);
             StartCoroutine(FromIntrotoLevel1());
             Time.timeScale = 0.2f;
         }
@@ -40,6 +42,19 @@ public class DoorTransition : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
         Time.timeScale = 1f;
+    }
+
+    void FishEntersDoor()
+    {
+        if (iCount >= 1)
+        { return; }
+        else if (FindObjectOfType<FishyController>().fishEscapeDoor)
+        {
+                myAudioSource.PlayOneShot(doorSound, 1f);
+                myAnimator.SetBool("TransitionOpenDoor", true);
+                iCount++;
+        }
+        else { return; }
     }
 
 }

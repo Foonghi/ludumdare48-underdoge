@@ -5,16 +5,17 @@ using UnityEngine;
 public class FishyController : MonoBehaviour
 {
 
-    [SerializeField] Transform[] Waypoints;
+    [SerializeField] Transform[] Waypoints; // array to store Waypoints in inspector
+    public bool fishEscapeDoor = false;
+    [SerializeField] float fishySpeed = 1f; // travelspeed of fishy
     
-    
-    bool triggerWaypoint = false;
-    int wPointsCounter = 0;
+    bool triggerWaypoint = false; // Checks if player triggered fishys collider and start MoveToPosition() in update
+    int wPointsCounter = 0; // Store length of array of Waypoints[] 
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(Waypoints.Length);
+       
     }
 
     // Update is called once per frame
@@ -36,32 +37,29 @@ public class FishyController : MonoBehaviour
         {
             return;
         }
-        /*else if(collision.gameObject.CompareTag("Door"))
-        {
-            Object.Destroy(gameObject, 0.2f);
-        }*/
         else
         {
-            triggerWaypoint = true;
+            triggerWaypoint = true; // enables MoveToPosition() in Update
         }
     }
 
-    void MoveToPosition()
+    void MoveToPosition() // Moves Fishy to next Waypoint
     {
-        if (transform.position == Waypoints[wPointsCounter].position)
+        if (transform.position == Waypoints[wPointsCounter].position) // if fishy has arrived at next waypoint
         {
-            triggerWaypoint = false;
-            wPointsCounter++;
+            triggerWaypoint = false; // deactivates MoveToPosition() in Update
+            wPointsCounter++; // next waypoint to travel to (0 + 1 = Waypoints[1])
             return;
         }
         else 
         {
-            var movementThisFrame = 7f * Time.deltaTime;
-            transform.position = Vector2.MoveTowards(transform.position, Waypoints[wPointsCounter].position, movementThisFrame);
-            if(transform.position == Waypoints[Waypoints.Length - 1].position)
+            var movementThisFrame = fishySpeed * Time.deltaTime; // fetch speed to move fishy each frame
+            transform.position = Vector2.MoveTowards(transform.position, Waypoints[wPointsCounter].position, movementThisFrame); // moves fishy
+            if(transform.position == Waypoints[Waypoints.Length - 1].position) // if fishy reaches final waypoint (last in array = 5 - 1 = 4, weil wegen von 0 angefangen zu zählen und so)
             {
-                Debug.Log("Destroy Fishy!");
-                Destroy(gameObject, 0.2f);
+                fishEscapeDoor = true; // Tells DoorTransition.cs fishy has reached its final waypoint at the door 
+                SpriteRenderer myRenderer = GetComponent<SpriteRenderer>(); 
+                myRenderer.enabled = false; // Sets fishy invisible
             }
         }
     }
