@@ -39,7 +39,10 @@ public class FishyController : MonoBehaviour
         }
         else
         {
-            triggerWaypoint = true; // enables MoveToPosition() in Update
+            if(wPointsCounter < Waypoints.Length)
+            {
+                triggerWaypoint = true; // enables MoveToPosition() in Update
+            }
         }
     }
 
