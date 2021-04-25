@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float playerSpeed = 5f;
     [SerializeField] float rotateSpeed = 0.5f;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +27,13 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            transform.localScale = new Vector2(-1, 1);
             transform.Rotate(0, 0, rotateSpeed);
             //transform.Translate(Vector2.left * playerSpeed * Time.deltaTime);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
+            transform.localScale = new Vector2( 1, 1);
             transform.Rotate(0, 0, -rotateSpeed);
             //transform.Translate(Vector2.right * playerSpeed * Time.deltaTime);
         }
