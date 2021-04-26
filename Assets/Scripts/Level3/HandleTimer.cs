@@ -7,7 +7,8 @@ public class HandleTimer : MonoBehaviour
 {
     Text myText;
     int timeInSeconds = 59;
-    int timeInMinutes = 2;
+    int timeInMinutes = 1;
+    bool timeIsUp = false;
 
 
     // Start is called before the first frame update
@@ -20,7 +21,15 @@ public class HandleTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TimeTextUpdater();
+        if(timeIsUp)
+        {
+            return;
+        }
+        else
+        {
+            TimeTextUpdater();
+        }
+
     }
 
     void TimeTextUpdater()
@@ -37,12 +46,20 @@ public class HandleTimer : MonoBehaviour
 
     void SecondsUpdater()
     {
-        timeInSeconds--;
-        if (timeInSeconds < 1)
+        if(timeInMinutes == 0 && timeInSeconds <= 1)
         {
-            timeInSeconds = 0;
-            timeInMinutes--;
+            timeIsUp = true;
         }
+        else
+        {
+            timeInSeconds--;
+            if (timeInSeconds < 1)
+            {
+                timeInSeconds = 59;
+                timeInMinutes--;
+            }
+        }
+      
 
     }
 
