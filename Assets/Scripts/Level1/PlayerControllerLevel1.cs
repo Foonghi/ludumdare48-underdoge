@@ -88,7 +88,15 @@ public class PlayerControllerLevel1 : MonoBehaviour
         if(collision.CompareTag("Bullet"))
         {
             Debug.Log("Player lose.");
-            Time.timeScale = 0.5f;
+            StartCoroutine(DelayedGameOver());
         }
+    }
+
+    IEnumerator DelayedGameOver()
+    {
+        Time.timeScale = 0.3f;
+        yield return new WaitForSeconds(1f);
+        Time.timeScale = 1f;
+        FindObjectOfType<WinLoseConditionHandler>().PlayerLoseReloadScene();
     }
 }

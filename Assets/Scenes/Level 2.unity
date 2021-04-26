@@ -250,6 +250,7 @@ GameObject:
   - component: {fileID: 139943939}
   - component: {fileID: 139943938}
   - component: {fileID: 139943937}
+  - component: {fileID: 139943941}
   m_Layer: 10
   m_Name: FireTruck
   m_TagString: Untagged
@@ -369,6 +370,19 @@ Transform:
   m_Father: {fileID: 1670239258}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &139943941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139943936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f35d4b41f7f1a408f25314a4ec7027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectHealth: 5
 --- !u!1 &164368288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,6 +1329,7 @@ GameObject:
   - component: {fileID: 1775099861}
   - component: {fileID: 1775099863}
   - component: {fileID: 1775099862}
+  - component: {fileID: 1775099864}
   m_Layer: 10
   m_Name: Tower
   m_TagString: Untagged
@@ -1434,6 +1449,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1775099864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775099859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f35d4b41f7f1a408f25314a4ec7027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectHealth: 5
 --- !u!1 &1830769593
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,6 +1519,7 @@ GameObject:
   - component: {fileID: 1915311483}
   - component: {fileID: 1915311485}
   - component: {fileID: 1915311484}
+  - component: {fileID: 1915311486}
   m_Layer: 10
   m_Name: Blocks
   m_TagString: Untagged
@@ -1610,6 +1639,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1915311486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915311481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f35d4b41f7f1a408f25314a4ec7027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectHealth: 5
 --- !u!1 &2110516194
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,6 +1664,7 @@ GameObject:
   - component: {fileID: 2110516196}
   - component: {fileID: 2110516198}
   - component: {fileID: 2110516197}
+  - component: {fileID: 2110516199}
   m_Layer: 10
   m_Name: Duck
   m_TagString: Untagged
@@ -1741,6 +1784,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2110516199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110516194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f35d4b41f7f1a408f25314a4ec7027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectHealth: 5
 --- !u!1 &2118585186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,6 +1854,7 @@ GameObject:
   - component: {fileID: 2130540500}
   - component: {fileID: 2130540502}
   - component: {fileID: 2130540501}
+  - component: {fileID: 2130540503}
   m_Layer: 10
   m_Name: Puppet
   m_TagString: Untagged
@@ -1917,3 +1974,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2130540503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130540498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f35d4b41f7f1a408f25314a4ec7027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectHealth: 5
