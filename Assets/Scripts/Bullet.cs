@@ -6,19 +6,30 @@ public class Bullet : MonoBehaviour
 {
     [SerializeField] float waveSpeed;
     Vector3 targetPos;
+    [SerializeField] bool autoFollowTargetOn;
  
 
     // Start is called before the first frame update
     void Start()
     {
-        targetPos = GameObject.Find("Player").transform.position; // Targets the players position at the moment of each prefabs instantiation
+        if(!autoFollowTargetOn)
+        {
+            targetPos = GameObject.Find("Player").transform.position; // Targets the players position at the moment of each prefabs instantiation
+            transform.right = targetPos - transform.position;
+        }
+        else { return; }
     }
 
     // Update is called once per frame
     void Update()
     {
-        //targetPos = GameObject.Find("Player").transform.position; // Follows target everywhere
+        if(autoFollowTargetOn)
+        {
+            targetPos = GameObject.Find("Player").transform.position; // Follows target everywhere
+            transform.right = targetPos - transform.position;
+        }
         
+
         var movementThisFrame = waveSpeed * Time.deltaTime; // fetch speed to move fishy each frame
         transform.position = Vector2.MoveTowards(transform.position, targetPos, movementThisFrame); // moves fishy
         if(transform.position == targetPos)
@@ -31,10 +42,10 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
         
     {
-        if(collision.CompareTag("Bullet")) { return; }
+        if(collision.CompareTag("Bullet") ||collision.CompareTag("Background")) { return; }
         else
         {
-            Debug.Log("Destroyed hit Target");
+            Debug.Log("Triggered by " + collision.gameObject.name);
             Destroy(gameObject);
         }
     }

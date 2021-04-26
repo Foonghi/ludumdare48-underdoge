@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveSpeed: 10
+  autoFollowTargetOn: 0
 --- !u!50 &4132443385255191055
 Rigidbody2D:
   serializedVersion: 4
