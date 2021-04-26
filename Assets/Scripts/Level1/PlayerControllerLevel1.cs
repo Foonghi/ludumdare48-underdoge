@@ -10,6 +10,7 @@ public class PlayerControllerLevel1 : MonoBehaviour
     Rigidbody2D pRigidbody;
     bool playerHasHorizontalSpeed;
     bool playerHasVerticalSpeed;
+    float startingXScale;
 
 
     // Start is called before the first frame update
@@ -17,6 +18,7 @@ public class PlayerControllerLevel1 : MonoBehaviour
     {
         myAnimator = GetComponent<Animator>();
         pRigidbody = GetComponent<Rigidbody2D>();
+        startingXScale = transform.localScale.x;
     }
 
     // Update is called once per frame
@@ -26,6 +28,7 @@ public class PlayerControllerLevel1 : MonoBehaviour
         PlayerMoveVertical();
         PlayerMoveHorizontal();
         myAnimator.SetBool("isMoving", (playerHasHorizontalSpeed || playerHasVerticalSpeed));
+        FlipSpriteInDirection();
     }
 
     void PlayerMoveHorizontal()
@@ -98,5 +101,19 @@ public class PlayerControllerLevel1 : MonoBehaviour
         yield return new WaitForSeconds(1f);
         Time.timeScale = 1f;
         FindObjectOfType<WinLoseConditionHandler>().PlayerLoseReloadScene();
+    }
+
+    void FlipSpriteInDirection()
+    {
+        Vector2 characterScale = transform.localScale;
+        if(Input.GetAxis("Horizontal") < 0)
+        {
+            characterScale.x = -startingXScale;
+        }
+        if(Input.GetAxis("Horizontal") > 0)
+        {
+            characterScale.x = startingXScale;
+        }
+        transform.localScale = characterScale;
     }
 }
