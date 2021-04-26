@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] float playerSpeed = 5f;
     [SerializeField] float rotateSpeed = 0.5f;
-
+    
 
 
     // Start is called before the first frame update
@@ -51,6 +51,5 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(Vector2.up * playerSpeed * Time.deltaTime);
         }
-      
     }
 }

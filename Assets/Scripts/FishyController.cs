@@ -55,21 +55,14 @@ public class FishyController : MonoBehaviour
             wPointsCounter++; // next waypoint to travel to (0 + 1 = Waypoints[1])
             myAnimator.SetBool("IsMoving", false);
             SpriteRenderer myRenderer = GetComponent<SpriteRenderer>();
-            if(myRenderer.flipX)
+            if(wPointsCounter <= 3)
             {
-                myRenderer.flipX = false;
+                float flipX = transform.localScale.x * -1;
+                transform.localScale = new Vector2(flipX, transform.localScale.y);
             }
             else
             {
-                if(wPointsCounter >= 3)
-                {
-                    return;
-                }
-                else
-                {
-                    myRenderer.flipX = true;
-                }
-                
+                return;                
             }
         }
         else 
