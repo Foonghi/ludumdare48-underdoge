@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class WinLoseConditionHandlerLevel5 : MonoBehaviour
 {
     [SerializeField] GameObject slipScenePlayer;
+    [SerializeField] GameObject fishPlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,10 +35,10 @@ public class WinLoseConditionHandlerLevel5 : MonoBehaviour
     IEnumerator AnimationDeathRebornAndLoadNextScen()
     {
         Debug.Log("Player wins!");
-
         GameObject slippy = Instantiate(slipScenePlayer, transform.position, transform.rotation) as GameObject;
-        yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        FindObjectOfType<DeleteLight>().DestroyMe();
+        yield return new WaitForSeconds(3f);
+        GameObject Player = Instantiate(fishPlayer, fishPlayer.transform.position, fishPlayer.transform.rotation) as GameObject;
     }
 
     public void PlayerLoseReloadScene()
@@ -45,3 +46,4 @@ public class WinLoseConditionHandlerLevel5 : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
+// SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
