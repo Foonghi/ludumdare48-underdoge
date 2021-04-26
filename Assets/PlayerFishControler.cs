@@ -11,6 +11,7 @@ public class PlayerFishControler : MonoBehaviour
     bool playerHasHorizontalSpeed;
     bool playerHasVerticalSpeed;
     float startingXScale;
+    bool autoPilot = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,22 +24,23 @@ public class PlayerFishControler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        KeepFishInPool();
-        PlayerMoveVertical();
-        PlayerMoveHorizontal();
-        myAnimator.SetBool("isMoving", (playerHasHorizontalSpeed || playerHasVerticalSpeed));
-        FlipSpriteInDirection();
+        if(autoPilot)
+        {
+            return;
+        }
+        else
+        {
+            KeepFishInPool();
+            PlayerMoveVertical();
+            PlayerMoveHorizontal();
+            myAnimator.SetBool("isMoving", (playerHasHorizontalSpeed || playerHasVerticalSpeed));
+        }
     }
 
-    public void LetMeGrow()
-    {
-        transform.localScale = new Vector2(10f, 10f);
-        startingXScale = transform.localScale.x;
-    }
 
     void KeepFishInPool()
     {
-        transform.position = new Vector2(Mathf.Clamp(transform.position.x, 10f, 23f), Mathf.Clamp(transform.position.y, -4f, -12f));
+        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -22f, 422f), Mathf.Clamp(transform.position.y, -8f, 8f));
     }
 
     void PlayerMoveHorizontal()
