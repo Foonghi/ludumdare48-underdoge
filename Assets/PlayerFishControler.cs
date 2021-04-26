@@ -73,4 +73,12 @@ public class PlayerFishControler : MonoBehaviour
         transform.localScale = characterScale;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("MutterTrigger"))
+        {
+            autoPilot = true;
+            FindObjectOfType<MutterfischMove>().setAutoPilot();
+        }
+    }
 }

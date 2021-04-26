@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - Background
   - WinTrigger
+  - MutterTrigger
   layers:
   - Default
   - TransparentFX

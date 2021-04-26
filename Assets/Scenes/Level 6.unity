@@ -649,7 +649,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687648960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9924574, y: -0.42, z: -10}
+  m_LocalPosition: {x: 170.49245, y: -0.42, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 50048764}
@@ -735,7 +735,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928287128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.9924574, y: -0.42, z: -10}
+  m_LocalPosition: {x: 170.49245, y: -0.42, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -828,7 +828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8812833764119029636, guid: 75cb31139219f6247a8b8c81547b505f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.6
+      value: 157.9
       objectReference: {fileID: 0}
     - target: {fileID: 8812833764119029636, guid: 75cb31139219f6247a8b8c81547b505f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 1304414222}
   m_Layer: 0
   m_Name: TriggerAutopilot
-  m_TagString: Untagged
+  m_TagString: MutterTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1055,6 +1055,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1380790629}
   - component: {fileID: 1380790628}
+  - component: {fileID: 1380790630}
+  - component: {fileID: 1380790631}
   m_Layer: 0
   m_Name: Mutterfisch
   m_TagString: Untagged
@@ -1102,7 +1104,7 @@ SpriteRenderer:
   m_SortingLayerID: -808636643
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8819755883282680641, guid: 6e979e8ae957e4b4ea50d6d96e44a2b7, type: 3}
+  m_Sprite: {fileID: 8819755883282680641, guid: 3a8e01c24bfe87f43809cc85b09bba01, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1122,11 +1124,42 @@ Transform:
   m_GameObject: {fileID: 1380790627}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 191.8, y: -0.4, z: 0}
-  m_LocalScale: {x: 9.075292, y: 9.075292, z: 9.075292}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1380790630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380790627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e877b1677c50018479a8fb90ca8cad6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1380790631
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380790627}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 85921a4b83297ec41b3c29726e651724, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1425257568
 GameObject:
   m_ObjectHideFlags: 0
