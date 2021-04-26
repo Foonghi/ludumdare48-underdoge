@@ -83,7 +83,7 @@ public class PlayerControllerLevel4 : MonoBehaviour
 
     void KeepPlayerOnFloor()
     {
-        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -23f, 23f), Mathf.Clamp(transform.position.y, -7f, 5f));
+        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -24f, 24f), Mathf.Clamp(transform.position.y, -8f, 3f));
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
