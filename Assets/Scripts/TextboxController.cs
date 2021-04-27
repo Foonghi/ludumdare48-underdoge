@@ -41,7 +41,7 @@ public class TextboxController : MonoBehaviour
 
     private string SetText()
     {
-        return "And so, Frodo started his adventure to Mordor ...";
+        return "";
     }
 
     private IEnumerator BuildText()

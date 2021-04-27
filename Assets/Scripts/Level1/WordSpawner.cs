@@ -12,7 +12,7 @@ public class WordSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(SpawnNewWave());
+        StartCoroutine(SpawnFirstWave());
     }
 
     // Update is called once per frame
@@ -21,6 +21,11 @@ public class WordSpawner : MonoBehaviour
         
     }
 
+    IEnumerator SpawnFirstWave()
+    {
+        yield return new WaitForSeconds(2f);
+        StartCoroutine(SpawnNewWave());
+    }
 
     IEnumerator SpawnNewWave()
     {

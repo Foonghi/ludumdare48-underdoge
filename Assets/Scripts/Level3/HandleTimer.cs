@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class HandleTimer : MonoBehaviour
 {
     Text myText;
-    int timeInSeconds = 59;
-    int timeInMinutes = 1;
+    int timeInSeconds = 30;
+    int timeInMinutes = 0;
     bool timeIsUp = false;
 
 
@@ -23,6 +23,7 @@ public class HandleTimer : MonoBehaviour
     {
         if(timeIsUp)
         {
+            FindObjectOfType<WinLoseConditionHandler>().HandleWin();
             return;
         }
         else

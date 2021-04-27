@@ -9,6 +9,7 @@ TagManager:
   - Background
   - WinTrigger
   - MutterTrigger
+  - MusicTrigger
   layers:
   - Default
   - TransparentFX

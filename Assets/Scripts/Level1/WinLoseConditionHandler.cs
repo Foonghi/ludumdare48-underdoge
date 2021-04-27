@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class WinLoseConditionHandler : MonoBehaviour
 {
+    AudioSource myAudioSource;
+    [SerializeField] AudioClip carCrashSound;
+
     // Start is called before the first frame update
     void Start()
     {
-       
+        myAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -25,10 +28,15 @@ public class WinLoseConditionHandler : MonoBehaviour
         }
         else
         {
-            Debug.Log("Player wins!");
-            // TODO LoadNextScene, Text/Dialog 
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            HandleWin();
         }
+    }
+
+    public void HandleWin()
+    {
+        
+        // TODO LoadNextScene, Text/Dialog 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void PlayerLoseReloadScene()
