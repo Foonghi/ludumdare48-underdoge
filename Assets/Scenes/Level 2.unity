@@ -176,8 +176,8 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
+  m_ScreenX: 0.639
+  m_ScreenY: 0.694
   m_CameraDistance: 10
   m_DeadZoneWidth: 0.416
   m_DeadZoneHeight: 0.242
@@ -578,7 +578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687648960}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.89, y: -5.68, z: -10}
+  m_LocalPosition: {x: 11.895336, y: -2.5449598, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 50048764}
@@ -730,7 +730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d4555dddf88bee4ea479a12f4a8a96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 3
+  playerSpeed: 2
 --- !u!95 &797638816
 Animator:
   serializedVersion: 3
@@ -830,7 +830,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928287128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.636808, y: -1.9199991, z: -10}
+  m_LocalPosition: {x: 10.636808, y: -1.9199989, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -914,7 +914,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9482ba54d14e1044c8a64afc752068b8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.01
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1713,8 +1713,8 @@ GameObject:
   - component: {fileID: 1915311482}
   - component: {fileID: 1915311483}
   - component: {fileID: 1915311485}
-  - component: {fileID: 1915311484}
   - component: {fileID: 1915311486}
+  - component: {fileID: 1915311484}
   m_Layer: 10
   m_Name: Blocks
   m_TagString: Untagged
@@ -1787,8 +1787,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1915311484
-BoxCollider2D:
+--- !u!60 &1915311484
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1800,7 +1800,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.055575073, y: -0.09527469}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1810,9 +1810,21 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.5783752, y: 2.0494509}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.29079124, y: 0.9188491}
+      - {x: -0.34090367, y: 0.91147166}
+      - {x: -0.34255004, y: 0.38730964}
+      - {x: -0.76067114, y: 0.34865728}
+      - {x: -0.7725055, y: -0.26441067}
+      - {x: -1.1246322, y: -0.27705723}
+      - {x: -1.12, y: -1.12}
+      - {x: 1.0699999, y: -1.12}
+      - {x: 1.0699999, y: -0.28}
+      - {x: 1.05, y: -0.26}
+      - {x: 0.7026984, y: -0.2800837}
+      - {x: 0.68442804, y: 0.3578514}
+      - {x: 0.2987281, y: 0.37086263}
 --- !u!50 &1915311485
 Rigidbody2D:
   serializedVersion: 4

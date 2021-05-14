@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class UI_SceneManager : MonoBehaviour
 {
+    [SerializeField] GameObject startButton;
+    
     public void ShowCredits()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -13,13 +15,30 @@ public class UI_SceneManager : MonoBehaviour
 
     public void StartGame()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        startButton.SetActive(false);
+        FindObjectOfType<StartGameBlackScreenInAndOut>().GoFading();
+        StartCoroutine(delayStartGame());
+        StartCoroutine(delaySplashSound());
+        FindObjectOfType<VolumeFader>().StartFadingVolume();
+
     }
 
     public void BackToMainFromCredits()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex - 1);
+    }
+
+    IEnumerator delayStartGame()
+    {
+        yield return new WaitForSeconds(5f);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
+    IEnumerator delaySplashSound()
+    {
+        yield return new WaitForSeconds(2.5f);
+        GetComponent<AudioSource>().Play();
     }
 }

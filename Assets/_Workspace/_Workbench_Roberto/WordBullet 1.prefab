@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334a7eeabcf678b48bb79d47a70b1047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveSpeed: 8
+  waveSpeed: 5
   autoFollowTargetOn: 1
 --- !u!50 &-6775230287249838393
 Rigidbody2D:

@@ -35,7 +35,7 @@ public class WinLoseConditionHandlerLevel5 : MonoBehaviour
     IEnumerator AnimationDeathRebornAndLoadNextScen()
     {
         Debug.Log("Player wins!");
-        GameObject slippy = Instantiate(slipScenePlayer, transform.position, transform.rotation) as GameObject;
+        GameObject slippy = Instantiate(slipScenePlayer, slipScenePlayer.transform.position, slipScenePlayer.transform.rotation) as GameObject;
         FindObjectOfType<DeleteLight>().DestroyMe();
         yield return new WaitForSeconds(3f);
         GameObject Player = Instantiate(fishPlayer, fishPlayer.transform.position, fishPlayer.transform.rotation) as GameObject;

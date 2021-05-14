@@ -9,11 +9,12 @@ public class CameraController : MonoBehaviour
     private float distance;
     private float startDistance;
     private float threshold;
+    private float defaultVolume = 0.05f;
     private AudioSource cameraAudioSource;
     // Start is called before the first frame update
     void Start()
     {
-        cameraAudioSource = gameObject.GetComponent<AudioSource>();
+        cameraAudioSource = GetComponent<AudioSource>();
         //only need this once, since the door doesn't move
         doorPosition = GameObject.Find("Tür").transform.position;
         startDistance = Vector2.Distance(player.transform.position, doorPosition);
@@ -33,6 +34,7 @@ public class CameraController : MonoBehaviour
     {
         //check current distance
         distance = Vector2.Distance(player.transform.position, doorPosition);
-        cameraAudioSource.spatialBlend = (startDistance / distance );
+        cameraAudioSource.volume = (distance / startDistance) * defaultVolume;
+        Debug.Log(distance);
     }
 }

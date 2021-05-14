@@ -6,7 +6,7 @@ public class WordSpawner : MonoBehaviour
 {
     float delayForSpawnNewWave;
     [SerializeField] GameObject waveObject;
-    [SerializeField] float delayNextWaveTimer = 5f;
+    [SerializeField] float delayNextWaveTimer = 6f;
     
 
     // Start is called before the first frame update

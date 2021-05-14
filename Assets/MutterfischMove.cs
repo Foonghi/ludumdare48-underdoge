@@ -17,7 +17,7 @@ public class MutterfischMove : MonoBehaviour
     {
         if(goMuddi)
         {
-            var movementThisFrame = 5f * Time.deltaTime; // fetch speed to move fishy each frame
+            var movementThisFrame = 3f * Time.deltaTime; // fetch speed to move fishy each frame
             transform.position = Vector2.MoveTowards(transform.position, waypoint, movementThisFrame); // moves fishy
         }
         else
